@@ -1,0 +1,28 @@
+#tool{
+  width: 25px;
+  height: 104px;
+  position: absolute;
+  left: 558px;
+  top: 503px;
+}
+#tool div{
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+}
+#grid{
+  background: url('./img/as-3.png') no-repeat;
+  background-position: 0 0;
+}
+#reset{
+  background: url('./img/as-3.png') no-repeat;
+  background-position: 0 -31px;
+}
+#bigger{
+  background: url('./img/as-3.png') no-repeat;
+  background-position: 0 -55px;
+}
+#smaller{
+  background: url('./img/as-3.png') no-repeat;
+  background-position: 0 -80px;
+}

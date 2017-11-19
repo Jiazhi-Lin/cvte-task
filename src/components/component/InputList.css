@@ -1,0 +1,63 @@
+.Input-List{
+  display: inline-block;
+  height: 500px;
+  vertical-align: top;
+  margin-left: 20px;
+}
+#inputArea{
+  width: 200px;
+  position: relative;
+  display: inline-block;
+  height: 460px;
+}
+#inputArea ul{
+  list-style: none;
+  margin:0;
+  padding: 0;
+  display: inline-block;
+}
+#inputArea ul li{
+  border-bottom: 1px solid #ccc;
+  height: 57px;
+}
+#inputArea ul li p{
+  margin:8px 0px;
+}
+#add{
+  position: absolute;
+  left: 10px;
+  top: 465px;
+}
+#add img{
+  vertical-align: top;
+  margin-top: -2px;
+}
+#add>.num{
+  color: green
+}
+#inputArea .formula{
+  border: 1px solid green;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 160px;
+  height: 22px;
+  overflow: hidden;
+}
+#inputArea .formula .content{
+  margin: 0;
+  width: 120px;
+  border: 0;
+  outline: 0;
+}
+#inputArea .formula img{
+  width: 25px;
+  height: 20px;
+  vertical-align: bottom;
+  float: right;
+}
+.temp2{
+	vertical-align: top;
+}
+.temp1{
+	font-size: 10pt;color:#aac;
+}

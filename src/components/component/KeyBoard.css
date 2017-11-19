@@ -1,0 +1,26 @@
+#keyBord{
+  position: absolute;
+  display: none;
+  left: 634px;
+  top: 169px;
+}
+table{
+  width: 450px; 
+  text-align: center; 
+  border-collapse: collapse;
+  border:1px solid #ccc;
+  border-radius: 5px;
+  font-family: '微软雅黑'
+}
+tr td{
+  width: 45px;
+  height: 45px;
+  border:1px solid #ccc;
+  background: #f4f4f4;
+}
+tr td:hover{
+  opacity:0.7;
+}
+.l{
+  background: #f3ebe0;
+}
